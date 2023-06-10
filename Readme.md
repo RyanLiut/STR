@@ -22,9 +22,10 @@ The following steps explain how to run the code:
    pip install -r requirements.txt
    ```
 
-2. Data Preparation: Prepare the dataset and place it in the specified path.
+2. Data Preparation: Prepare the dataset and place it in the specified path. (You can download from Tsinghua Cloud)
 
-   You need `datasets` directory of MSVD, MSRVTT, VATEX etc. Here is the onedrive link to download them.
+   * `datasets` directory: [MSVD](https://cloud.tsinghua.edu.cn/d/dc619471aef648c9b8bd/), [MSRVTT](https://cloud.tsinghua.edu.cn/d/403b51e239e04c13a23e/), VATEX etc.
+   * `cococaption`: [cococaption](https://cloud.tsinghua.edu.cn/d/7195435155a34bfd9121/)
 
 3. Configuration: Modify the parameters in the configuration file in the `configs` directory according to your needs.
 
@@ -47,6 +48,10 @@ If you use the code in your research, please cite the following article:
   publisher={IEEE}
 }
 ```
+
+## Acknowledgement
+
+The code is based on [cos-vae](https://github.com/visinf/cos-cvae). We thank the authors for their work and code.
 
 ## License
 
